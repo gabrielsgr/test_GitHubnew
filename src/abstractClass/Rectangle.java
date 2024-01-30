@@ -29,8 +29,8 @@ public class Rectangle extends ShapeForm{
 	/**
 	 * Calculate the circumference from Rectangle
 	 * @param length
-	 * @param hight
-	 * @return circumferance
+	 * @param width
+	 * @return circumference
 	 */
 	public double calculateCircumference(double length, double width) {
 		return 2 * (this.length + this.width);
@@ -39,7 +39,7 @@ public class Rectangle extends ShapeForm{
 	/**
 	 * Calculate the circumference from Rectangle
 	 * @param length
-	 * @param hight
+	 * @param width
 	 * @return area
 	 */
 	public double calculateArea(double length, double width) {

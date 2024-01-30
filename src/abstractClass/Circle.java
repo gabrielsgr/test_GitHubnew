@@ -20,9 +20,8 @@ public class Circle extends ShapeForm {
 
 	/**
 	 * Calculate the circumference from Circle
-	 * @param length
-	 * @param hight
-	 * @return circumferance
+	 * @param radius
+	 * @return circumference
 	 */
 	public double calculateCircumference(double radius) {
 		return 2 * this.radius * Math.PI;
@@ -30,8 +29,7 @@ public class Circle extends ShapeForm {
 	
 	/**
 	 * Calculate the circumference from Circle
-	 * @param length
-	 * @param hight
+	 * @param radius
 	 * @return area
 	 */
 	public double calculateArea(double radius) {
