@@ -17,7 +17,7 @@ public class Aufgabe1 {
 			System.out.println("Array ist null");
 		}
 		else {
-			for(int i = 1; i< (gains.length-1); i++) {
+			for(int i = 1; i< (gains.length); i++) {
 				if(gains[i-1]*1.05 < gains[i]) {
 					erg++;
 				}
