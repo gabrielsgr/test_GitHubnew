@@ -9,8 +9,7 @@ public class MusicalChairsMain {
 		
 		System.out.println(mc1);
 		System.out.println(mc2);
-		mc1.rotate(2);
-		System.out.println(mc1);
+		System.out.println(mc1.play());
 	}
 
 
