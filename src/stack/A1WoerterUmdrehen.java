@@ -1,6 +1,6 @@
 package stack;
 
-import java.util.Stack;
+import java.util.LinkedList;
 
 public class A1WoerterUmdrehen {
 	
@@ -16,16 +16,16 @@ public class A1WoerterUmdrehen {
 	}
 
 	private static String reverseString(String input) {
-		Stack<Character> stack = new Stack<>();
+		LinkedList<Character> stack = new LinkedList<>();
 		
-        for (int i = 0; i < input.length(); i++) {
-            stack.push(input.charAt(i));
+        for (char c : input.toCharArray()) {
+            stack.push(c);
         }
-        String reversed = "";
+        StringBuilder reversed = new StringBuilder();
         while (!stack.isEmpty()) {
-        	reversed += stack.pop();
+        	reversed.append(stack.pop());
         }
-		return reversed;		
+		return reversed.toString();		
 	}
 	
 }
